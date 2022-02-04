@@ -1,30 +1,31 @@
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container">
-        <a class="navbar-brand" href="#">Fantasy Furniture</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0" *ngIf="accountService.currentUser$ | async">
+        <a class="navbar-brand" routerLink='/' routerLinkActive='active'>Fantasy Furniture</a>
+        
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <ng-container *ngIf="accountService.currentUser$ | async">
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#">Acasă</a>
+              <a class="nav-link" routerLink='/members' routerLinkActive='active'>Clienti</a>
             </li>
+
             <li class="nav-item">
-                <a class="nav-link" href="#">Furnizori</a>
+                <a class="nav-link" routerLink='/lists' routerLinkActive='active'>Liste</a>
               </li>
               
             <li class="nav-item">
-              <a class="nav-link ">Clienti</a>
+              <a class="nav-link" routerLink='/messages' routerLinkActive='active'>Mesaje</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link ">Facturi</a>
-              </li>
+        
               <li class="nav-item">
-                <a class="nav-link " (click)="logout()">Logout</a>
+                <a class="nav-link" (click)="logout()">Logout</a>
               </li>
+            </ng-container>
+            <li class="nav-item">
+              <a class="nav-link" routerLink='/errors' routerLinkActive='active'>Errors</a>
+            </li>
           </ul>
-          <div class="dropdown" *ngIf="accountService.currentUser$ | async" dropdown>
-            <a class="dropdown-toggle text-light" dropdownToggle>Bine ai venit, user!</a>
+          <div class="dropdown" *ngIf="(accountService.currentUser$ | async) as user" dropdown>
+            <a class="dropdown-toggle text-light" dropdownToggle>Bine ai venit, {{user.username | uppercase}} !</a>
             <div class="dropdown-menu mt-3" *dropdownMenu>
                <a class="dropdown-item">Editare utilizator</a>
                <div class="dropdown-divider"></div>
@@ -48,6 +49,5 @@
             <button class="btn btn-outline-success" type="submit">Login</button>
           </form>
         </div>
-      </div>
-     
+  
   </nav>
