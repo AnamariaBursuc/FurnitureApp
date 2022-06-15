@@ -19,7 +19,7 @@ namespace API.Entities
     public DateTime LastActive {get; set; } = DateTime.Now;
     public string Details {get; set;}     
     public string Role {get; set;}        
-
+    public Photo Photo {get; set;}
     public ICollection<Invoice> Invoices {get; set;}
     //  public int GetAge()
     //  {

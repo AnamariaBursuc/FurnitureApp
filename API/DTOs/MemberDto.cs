@@ -6,8 +6,9 @@ namespace API.DTOs
 {
     public class MemberDto
     {
-         public int Id { get; set; }
+                 public int Id { get; set; }
     public string Username { get;set; }
+      public string PhotoUrl { get;set; }
 
     public int Age {get; set; }
 
@@ -17,6 +18,7 @@ namespace API.DTOs
     public DateTime LastActive {get; set; } = DateTime.Now;
     public string Details {get; set;}     
     public string Role {get; set;}      
+    public Photo Photo {get; set;}
     public ICollection<InvoiceDto> Invoices {get; set;}  
 
     }

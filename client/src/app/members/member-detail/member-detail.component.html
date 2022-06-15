@@ -1,1 +1,54 @@
-<p>member-detail works!</p>
+<div class="row" *ngIf="member">
+    <div class="col-4">
+        <div class="card">
+            <img src="{{member.photoUrl || './assets/user.png'}}" alt="{{member.knownAs}}" 
+               class="card-img-top img-thumbnail">
+            <div class="card-body">
+                <div>
+                    <strong>Atributii:</strong>
+                    <p>{{member.role}}, {{member.details}}</p>
+                </div>
+                <div>
+                    <strong>Varsta:</strong>
+                    <p>{{member.age}}</p>
+                </div>
+                <div>
+                    <strong>Ultima data activ :</strong>
+                    <p>{{member.lastActive}}</p>
+                </div>
+                <div>
+                    <strong>Utilizator din:</strong>
+                    <p>{{member.created}}</p>
+                </div>
+                <div class="card-footer">
+                    <div class="btn-group d-flex">
+
+                        <button class="btn btn-success">Message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-8">
+        <tabset class="member-tabset">
+            <tab heading='About {{member.knownAs}}'>
+                <h4>Atributii</h4>
+                <p>{{member.details}}</p>
+                <h4>Varsta</h4>
+                <p>{{member.age}}</p>
+            </tab>
+            <tab heading='Invoices {{member.invoices}}'>
+                <h4>Invoices</h4>
+                <p>This is where the invoices will apear</p>
+               
+            </tab>
+            <tab heading='Messages '>
+                <h4>Messages</h4>
+                <p>{{member.Message}}</p>
+                <h4>Varsta</h4>
+                <p>{{member.age}}</p>
+            </tab>
+        
+        </tabset>
+    </div>
+</div>

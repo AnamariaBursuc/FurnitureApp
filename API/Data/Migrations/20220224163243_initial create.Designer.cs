@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API.Data.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20220211224743_initial create")]
+    [Migration("20220224163243_initial create")]
     partial class initialcreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -76,7 +76,7 @@ namespace API.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Client");
+                    b.ToTable("Clients");
                 });
 
             modelBuilder.Entity("API.Entities.Invoice", b =>
@@ -146,7 +146,30 @@ namespace API.Data.Migrations
 
                     b.HasIndex("InvoiceId");
 
-                    b.ToTable("InvoiceItem");
+                    b.ToTable("InvoiceItems");
+                });
+
+            modelBuilder.Entity("API.Entities.Photo", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("AppUserId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("PublicId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Url")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId")
+                        .IsUnique();
+
+                    b.ToTable("Photo");
                 });
 
             modelBuilder.Entity("API.Entities.Invoice", b =>
@@ -173,9 +196,22 @@ namespace API.Data.Migrations
                     b.Navigation("Invoice");
                 });
 
+            modelBuilder.Entity("API.Entities.Photo", b =>
+                {
+                    b.HasOne("API.Entities.AppUser", "AppUser")
+                        .WithOne("Photo")
+                        .HasForeignKey("API.Entities.Photo", "AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+                });
+
             modelBuilder.Entity("API.Entities.AppUser", b =>
                 {
                     b.Navigation("Invoices");
+
+                    b.Navigation("Photo");
                 });
 
             modelBuilder.Entity("API.Entities.Client", b =>

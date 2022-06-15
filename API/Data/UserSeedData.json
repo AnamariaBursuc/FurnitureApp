@@ -1,47 +1,153 @@
 [
   {
-    "Username": "Melba",
-    "DateOfBirth": "1960-09-18",
-    "KnownAs": "Melba",
-    "Created": "2019-04-23",
-    "LastActive": "2020-06-09",
-    "Details": "Laboris do quis occaecat eiusmod nulla duis elit pariatur eiusmod ut cupidatat minim minim. Deserunt nisi sit duis veniam id veniam ipsum sit commodo dolore ea. Eiusmod veniam nisi adipisicing eu Lorem elit magna ad excepteur labore. Do non quis commodo esse ex ullamco incididunt laboris mollit. Deserunt adipisicing tempor reprehenderit est exercitation voluptate. Eiusmod eiusmod proident elit sit sit anim officia.\r\n",
-    "Role": "sit"
+    "Username": "Chris",
+    "Gender": "female",
+    "DateOfBirth": "1996-03-21",
+    "KnownAs": "Chris",
+    "Created": "2019-10-19",
+    "LastActive": "2020-06-15",
+    "Details": "Officia proident duis sint labore dolor esse veniam reprehenderit culpa duis ullamco. Nisi non nisi cillum in mollit velit voluptate proident do amet Lorem ut exercitation consequat. Ut cupidatat ad ullamco nisi anim reprehenderit dolor in aute ullamco id occaecat. Amet commodo qui mollit ut. Non sint eu ullamco sit eiusmod ad fugiat pariatur nisi ut deserunt in irure. Nulla incididunt et amet culpa ad duis nulla officia eiusmod culpa. Id reprehenderit eu nulla eu non.\r\n",
+    "Role": "mollit",
+    "Photo": 
+      {
+        "Url": "https://randomuser.me/api/portraits/women/75.jpg"
+      }
+    
   },
   {
-    "Username": "Heather",
-    "DateOfBirth": "1973-02-17",
-    "KnownAs": "Heather",
-    "Created": "2019-02-02",
-    "LastActive": "2020-05-03",
-    "Details": "Esse ad ullamco fugiat Lorem esse nulla labore ea consequat esse anim. Eiusmod enim elit ea nostrud sint consectetur id mollit. Est non fugiat ullamco aliqua dolore laboris culpa anim aute duis qui. Duis magna Lorem fugiat sint est duis exercitation labore veniam esse id fugiat. Lorem occaecat culpa nulla proident ullamco tempor nisi quis ullamco qui.\r\n",
-    "Role": "culpa"
+    "Username": "Lacey",
+    "Gender": "female",
+    "DateOfBirth": "1950-12-16",
+    "KnownAs": "Lacey",
+    "Created": "2019-04-21",
+    "LastActive": "2020-05-29",
+    "Details": "Minim ex esse esse reprehenderit sit. Do culpa magna aute consequat fugiat. Ad sint sit esse dolor mollit voluptate labore incididunt sint. Labore ipsum ad nostrud do. Ad duis ad magna cillum nostrud. Ipsum aute pariatur quis ut commodo est cillum incididunt reprehenderit pariatur dolore do. Ea aliqua sunt aute commodo nostrud reprehenderit reprehenderit in.\r\n",
+    "Role": "consequat",
+    "Photo": 
+      {
+        "Url": "https://randomuser.me/api/portraits/women/43.jpg"
+      }
+    
   },
   {
-    "Username": "Cathryn",
-    "DateOfBirth": "1994-03-22",
-    "KnownAs": "Cathryn",
-    "Created": "2019-08-26",
-    "LastActive": "2020-06-18",
-    "Details": "Irure quis consectetur pariatur in voluptate do aute adipisicing consequat. Ad do irure mollit mollit elit ut duis. Labore anim irure esse consectetur magna irure. Exercitation pariatur laborum nisi ea occaecat cupidatat tempor.\r\n",
-    "Role": "exercitation"
+    "Username": "Lindsay",
+    "Gender": "female",
+    "DateOfBirth": "1980-07-22",
+    "KnownAs": "Lindsay",
+    "Created": "2019-04-04",
+    "LastActive": "2020-05-10",
+    "Details": "Elit ex ad cupidatat incididunt amet magna Lorem sint. Do cillum labore ex nisi aliqua adipisicing cupidatat et Lorem amet amet officia dolore. Pariatur magna proident nisi Lorem amet. Exercitation ea mollit mollit quis sit fugiat non.\r\n",
+    "Role": "incididunt",
+    "Photo": 
+      {
+        "Url": "https://randomuser.me/api/portraits/women/28.jpg"
+      }
+    
   },
   {
-    "Username": "Elizabeth",
-    "DateOfBirth": "1991-01-12",
-    "KnownAs": "Elizabeth",
-    "Created": "2019-06-24",
-    "LastActive": "2020-05-24",
-    "Details": "Id non excepteur et labore amet. Tempor sit aute officia cillum enim aute ullamco magna cillum nostrud culpa elit. Incididunt ea enim tempor eu nostrud mollit do qui quis occaecat. Laborum nisi eu esse quis mollit sunt ut labore consequat.\r\n",
-    "Role": "excepteur"
+    "Username": "Ila",
+    "Gender": "female",
+    "DateOfBirth": "1980-10-09",
+    "KnownAs": "Ila",
+    "Created": "2020-03-22",
+    "LastActive": "2020-06-23",
+    "Details": "Est incididunt officia laboris consequat. Ex quis aliquip eiusmod dolore fugiat anim. Dolor dolor est ut occaecat. Do labore culpa nisi commodo pariatur amet laborum esse consequat. Fugiat Lorem amet reprehenderit incididunt non.\r\n",
+    "Role": "Lorem",
+    "Photo": 
+      {
+        "Url": "https://randomuser.me/api/portraits/women/29.jpg"
+      }
+    
   },
   {
-    "Username": "Bessie",
-    "DateOfBirth": "1956-04-07",
-    "KnownAs": "Bessie",
-    "Created": "2019-12-03",
-    "LastActive": "2020-05-19",
-    "Details": "Laborum non consectetur sit ipsum tempor enim nulla nulla proident fugiat incididunt anim esse. Incididunt enim dolore non ex sunt nulla dolore duis sint est. Aliqua ipsum quis ea ex minim id. Nulla proident veniam elit aliquip non in do dolor officia Lorem exercitation anim Lorem sit. Proident est mollit ad ex ad exercitation deserunt. Minim dolor cillum amet ex sint id minim cillum velit consequat aliqua culpa. Non mollit id qui non ex eu.\r\n",
-    "Role": "esse"
+    "Username": "Chelsea",
+    "Gender": "female",
+    "DateOfBirth": "1966-04-01",
+    "KnownAs": "Chelsea",
+    "Created": "2019-11-30",
+    "LastActive": "2020-05-15",
+    "Details": "Exercitation voluptate amet commodo dolor sunt officia. Nostrud ipsum cupidatat velit Lorem. Nostrud deserunt enim amet esse nisi culpa culpa do qui ullamco deserunt esse minim.\r\n",
+    "Role": "sunt",
+    "Photo": 
+      {
+        "Url": "https://randomuser.me/api/portraits/women/56.jpg"
+      }
+    
+  },
+  {
+    "Username": "Newton",
+    "Gender": "male",
+    "DateOfBirth": "1958-05-08",
+    "KnownAs": "Newton",
+    "Created": "2020-02-16",
+    "LastActive": "2020-05-15",
+    "Details": "Dolore enim proident ipsum irure consectetur laborum duis. Veniam do consequat pariatur ullamco veniam velit est ad magna elit consequat deserunt in reprehenderit. Non labore velit et commodo commodo amet aliqua velit. Exercitation dolor adipisicing culpa aliquip velit deserunt est ad sunt in enim consequat consectetur.\r\n",
+    "Role": "amet",
+    "Photo": 
+      {
+        "Url": "https://randomuser.me/api/portraits/men/28.jpg"
+      }
+    
+  },
+  {
+    "Username": "Bender",
+    "Gender": "male",
+    "DateOfBirth": "1962-10-19",
+    "KnownAs": "Bender",
+    "Created": "2019-12-26",
+    "LastActive": "2020-05-09",
+    "Details": "Culpa aliqua laborum reprehenderit fugiat commodo sit ipsum dolor esse. Aliqua irure sint consequat aliqua elit enim. Duis id et ullamco culpa id laborum fugiat. Exercitation non id officia voluptate officia nostrud sunt magna dolor incididunt fugiat. Pariatur laboris aliquip laborum labore nulla ad eiusmod exercitation cupidatat nostrud anim non culpa esse. Duis mollit qui excepteur incididunt consectetur veniam. Ea irure qui minim id eiusmod anim elit reprehenderit.\r\n",
+    "Role": "excepteur",
+    "Photo": 
+      {
+        "Url": "https://randomuser.me/api/portraits/men/52.jpg"
+      }
+    
+  },
+  {
+    "Username": "Booker",
+    "Gender": "male",
+    "DateOfBirth": "1953-11-13",
+    "KnownAs": "Booker",
+    "Created": "2020-05-31",
+    "LastActive": "2020-06-26",
+    "Details": "Laboris sint consectetur sit ut amet ex proident aute exercitation proident deserunt mollit adipisicing. Consectetur aute nulla esse non ad consectetur deserunt do et excepteur labore. Consectetur minim ea nisi sit velit duis cillum. Cillum cillum pariatur officia mollit esse minim anim est occaecat ex Lorem exercitation mollit. Officia proident elit laborum dolor sunt. Labore labore tempor id sint ullamco incididunt cillum ipsum esse. Minim ut commodo est in elit esse id ex nisi pariatur ut culpa.\r\n",
+    "Role": "ea",
+    "Photo": 
+      {
+        "Url": "https://randomuser.me/api/portraits/men/95.jpg"
+      }
+    
+  },
+  {
+    "Username": "Garrett",
+    "Gender": "male",
+    "DateOfBirth": "1981-01-20",
+    "KnownAs": "Garrett",
+    "Created": "2019-06-08",
+    "LastActive": "2020-06-05",
+    "Details": "Consectetur commodo excepteur anim dolore sint aliquip sint in est dolore aliqua dolore adipisicing ipsum. Veniam tempor qui nisi elit deserunt sit labore do. Fugiat consectetur consequat dolor cillum nulla qui aute in occaecat. Ut labore consequat veniam anim labore qui.\r\n",
+    "Role": "deserunt",
+    "Photo": 
+      {
+        "Url": "https://randomuser.me/api/portraits/men/32.jpg"
+      }
+    
+  },
+  {
+    "Username": "Gray",
+    "Gender": "male",
+    "DateOfBirth": "1999-12-01",
+    "KnownAs": "Gray",
+    "Created": "2019-05-16",
+    "LastActive": "2020-05-29",
+    "Details": "Labore adipisicing voluptate magna officia pariatur proident ullamco deserunt fugiat officia elit. Nostrud minim ea excepteur est amet cillum ex sit. Reprehenderit id deserunt do enim nulla officia enim fugiat nisi. Est dolor qui in cillum id ex eiusmod amet. Id voluptate ea dolor cupidatat.\r\n",
+    "Role": "minim",
+    "Photo": 
+      {
+        "Url": "https://randomuser.me/api/portraits/men/85.jpg"
+      }
+    
   }
+
 ]
